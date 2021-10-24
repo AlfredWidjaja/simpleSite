@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+}
+hr{
+	display: none;
+}
+#sub{
+	display: block;
+	border: 1px groove silver;
+}
+.wrap{
+	background-image: url(../img/contentbg.jpg);
+	background-size: cover;
+	position : relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px auto;
+	height: 600px auto;
+}
+
+.header{
+	width: auto;
+	height: 180px;
+	background-image: url(../img/fut1.jpg);
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+#head{
+	font-family: Lucida Handwriting;
+	font-size: 22px;
+	color: #F0FFFF;
+	text-align: right;
+	margin-right: 5%;
+	float: right;
+	animation-name: open;
+	animation-duration: 4s;
+}
+@keyframes open{
+	0%{font-size: 0px; margin-right: 1%;}
+	100%{font-size: 22px; margin-right: 5%;}
+}
+#logo{
+	opacity: 1;
+	margin-top:2%;
+	position: absolute;
+	animation-name: log;
+	animation-duration: 5s;
+	margin-left: 4%;
+}
+@keyframes log{
+	0%{opacity: 0; margin-left: 0%;}
+	100%{opacity: 1; margin-left: 4%;}
+}
+span{
+	display: inline-block;
+}
+
+.body{
+	height: 570px;
+	width: 600px auto;
+}
+.navbar{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+.opsi{
+	display: block;
+	width: 85px;
+	height: 80px auto;
+	background-color: none;
+	border: 1px solid grey;
+	border-top: none;
+	padding: 3px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	background-color:white;
+}
+.menu{
+	display: none;	
+	border: none;
+	background-color: white;
+	font-family: Lucida Handwriting;
+}
+.opsi:hover{
+	opacity: 0.8;
+	filter: invert(100%);
+	cursor: pointer;
+}
+#no{
+	cursor: default;
+}
+.opsi:hover .menu{
+	display: inline;
+	cursor: pointer;
+}
+.opsi:hover .bat{
+	display: inline-block;
+}
+.opsi:hover hr{
+	display: block;
+	border: 1px solid silver;
+}
+#bot{
+	border-bottom-right-radius: 10px;
+}
+.clock{
+	background-image:url(../img/cat.gif);
+	background-size: cover;
+	border-top-right-radius:40px;
+	border-bottom-right-radius: 15px;
+	width: 122px;
+	height:130px;
+	filter: opacity(85%) invert(100%);
+}
+.clock:hover {
+	cursor:none;
+	animation-name: clock;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+}
+@keyframes clock{
+	0%{filter:invert(100%);}
+	50%{filter:invert(0%);}
+	100%{filter:invert(100%);}
+}
+#date{
+	font-size: 16.5px;
+	font-family: Swiss;
+	margin-top: 40%;
+	margin-left: 2px;
+}
+.content{
+	width: 89%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+#jud{
+	font-size: 45px;
+}
+
+p{
+	font-size: 30px;
+}
+table{
+	border: 7px groove silver;
+	text-align: center;
+}
+#quote{
+	font-family: Frosty;
+	font-size: 25px;
+	font-weight: bold;
+}

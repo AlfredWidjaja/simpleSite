@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<span><img src="public/img/log.png" id="logo" alt="logo" width="180px" height="100px">
+			</span>
+			<span class="head" id="head">
+				<h1>ALFRED WIDJAJA</br>HOMEPAGE</h1>
+			</span>	
+		</div>
+		<div class="body">	
+			<div class="navbar">
+				<div class="opsi" onclick=home()>
+					<img src="public/img/home.png" alt="homeNav" height="50px" width="55px">
+					</br>Home
+				</div>
+				<div class="opsi" id="no">
+					<img src="public/img/schedule.png" alt="scheduleNav" height="50px" width="55px">
+					</br>Schedule
+					<hr/>
+					<button class="menu" onclick=reminder()>
+						<img src="public/img/tanda seru.png" alt="eventNav" height="50px" width="55px">
+						</br>Event
+					</button>
+					<hr/>
+					<button class="menu" onclick=reminder()>
+						<img src="public/img/book.png" alt="bookNav" height="50px" width="55px">
+						</br>School Work
+					</button>
+				</div>
+				<div class="opsi" id="no">
+					<img src="public/img/camera.png" alt="camNav" height="50px" width="55px">
+					</br>Gallery
+					<hr/>
+					<button class="menu" onclick=reminder()>
+						<img src="public/img/mountain.jpg" alt="mounNav" height="50px" width="55px">
+						</br>Mountain
+					</button>
+					<hr/>
+					<button class="menu" onclick=reminder()>
+						<img src="public/img/sea.jpg" alt="seaNav" height="50px" width="55px">
+						</br>Sea
+					</button>
+					<hr/>
+					<button class="menu" onclick=reminder()>
+						<img src="public/img/sunset.jpg" alt="sunNav" height="50px" width="55px">
+						</br>Sunset
+					</button>
+				</div>
+				<div class="opsi" onclick=about_me()>
+					<img src="public/img/me.png" alt="aboutNav" height="50px" width="55px">
+					</br>About Me
+				</div>
+				<div class="opsi" id="bot" onclick=reminder()>
+					<img src="public/img/phone.png" alt="phoneNav" height="50px" width="55px">
+					</br>Contact
+				</div>
+				<div class="clock">
+					<span id="date">
+					</span>
+				</div>
+			</div>
+			<div class="content">
+				<h2 id="jud">Welcome To My First Homepage </br> Using HTML, CSS, & JavaScript </h2>
+				<hr id="sub" width="75%"/>
+				<p id="ket">Homepage is greatly different from before</br>
+				There are many sub features in navigation bar</br>
+				</br>
+				Features available:</br>
+				1. Home</br> 2. About Me</p>
+				<center>
+				<table>
+					<tr>
+						<td id="quote">"LIFE is like a GAME of CHESS</br>
+							CHANGING with each MOVE"</td>
+					</tr>
+				</table>
+				</center>
+			</div>
+		</div>
+	</div>
+	<script src="public/js/javascript.js">
+	</script>
+</body>
+</html>
